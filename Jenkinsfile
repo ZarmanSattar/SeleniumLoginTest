@@ -13,7 +13,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Replace the URL below with YOUR GitHub repository URL
-                git branch: 'main', url: 'https://github.com/YOUR_USERNAME/SeleniumLoginTest.git'
+                git branch: 'main', url: 'https://github.com/ZarmanSattar/SeleniumLoginTest.git'
             }
         }
 
